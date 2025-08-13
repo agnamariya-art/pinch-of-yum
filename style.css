@@ -1,0 +1,297 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #7B3F61;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: #FFD8E1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Logo & Navigation */
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Brand with Image Background */
+.brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    padding: 10px 20px;
+    color: white;
+    background-image: url('f61961ad-b556-46f0-b593-c6134ced5ae6.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #7B3F61;
+    padding-bottom: 3px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f4f7;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Recipes Section */
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.recipe-card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.recipe-card:hover {
+    transform: scale(1.03);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin: 15px 0 5px;
+}
+
+.recipe-card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0 15px 20px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7B3F61;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .logo-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .recipes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Your existing styles here */
+/* Added form styling */
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form button {
+    background-color: #7B3F61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5c2656;
+}
+
+.active {
+    border-bottom: 2px solid #7B3F61;
+    padding-bottom: 3px;
+}
+
+
+.logo-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            border-bottom: 1px solid #eee;
+            background-color: white;
+        }
+        .logo{
+            font-family: 'Georgia', serif;
+            font-size: 28px;
+            color: #7b3f62;
+        }
+        .logo-nav {
+            font-family: 'Brush Script MT', cursive;
+            color: gray;
+        }
+
+        /* Reset some defaults */
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #814b63; /* Plum color */
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header and logo */
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 28px;
+    color: #814b63;
+    font-weight: normal;
+    font-family: "Georgia", serif;
+}
+
+.logo span {
+    font-family: "Brush Script MT", cursive;
+    color: #999;
+    font-size: 26px;
+    font-style: italic;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #814b63;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    background-color: #faf6f9;
+    padding: 40px 20px;
+}
+
+.hero h2 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.hero p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 24px;
+    color: #814b63;
+    margin-top: 10px;
+}
+
+/* Recipe section */
+
+
+
+/* Footer */
+footer {
+    background-color: #814b63;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Apply to all images on the site */
+img {
+    max-width: 100%; /* Prevents overflow */
+    height: auto;    /* Keeps proportions */
+    width: 200px;    /* Set desired width for all */
+    object-fit: cover; /* Makes it fit nicely */
+}
